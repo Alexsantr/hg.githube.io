@@ -46,30 +46,30 @@
 
 				<div class="collapse navbar-collapse justify-content-end align-items-center" id="navbarSupportedContent">
 					<ul class="navbar-nav">
-						<li><a href="index.html">Home</a></li>
-						<li><a href="about.html">About</a></li>
-						<li><a href="causes.html">Causes</a></li>
-						<li><a href="event.html">Event</a></li>
-						<li><a href="chat.html">Chat</a></li>
+						<li><a  href="index.html">Галавное</a></li>
+						<li><a href="about.html">О нас</a></li>
+						<li><a href="causes.html">Забивки</a></li>
+						<li><a href="event.html">Мастера</a></li>
+						<li><a href="chat.html">Чат</a></li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-								Pages
+								Статьи
 							</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="event-details.html">Event Details</a>
-								<a class="dropdown-item" href="elements.html">Elements</a>
+								<a class="dropdown-item" href="event-details.html">История</a>
+								<a class="dropdown-item" href="elements.html">Кальянны</a>
 							</div>
 						</li>
 						<li class="dropdown">
 							<a class="dropdown-toggle" href="#" id="navbardrop" data-toggle="dropdown">
-								Blog
+								Места
 							</a>
 							<div class="dropdown-menu">
-								<a class="dropdown-item" href="blog.html">Blog</a>
-								<a class="dropdown-item" href="blog-details.html">Blog Details</a>
+								<a class="dropdown-item" href="blog.html">О кальянных</a>
+								<a class="dropdown-item" href="blog-details.html">Кальянные Костромы</a>
 							</div>
 						</li>
-						<li><a class="active" href="contact.html">Contact</a></li>
+						<li><a class="active" href="contact.html">Карта</a></li>
 					</ul>
 				</div>
 			</div>
@@ -96,31 +96,7 @@
   <section class="section-gap">
     <div class="container">
       <div class="d-none d-sm-block mb-5 pb-4">
-        <div id="map" style="height: 480px;"></div>
-        <script>
-          function initMap() {
-            var uluru = { lat: -25.363, lng: 131.044 };
-            var grayStyles = [
-              {
-                featureType: "all",
-                stylers: [
-                  { saturation: -90 },
-                  { lightness: 50 }
-                ]
-              },
-              { elementType: 'labels.text.fill', stylers: [{ color: '#A3A3A3' }] }
-            ];
-            var map = new google.maps.Map(document.getElementById('map'), {
-              center: { lat: -31.197, lng: 150.744 },
-              zoom: 9,
-              styles: grayStyles,
-              scrollwheel: false
-            });
-          }
-
-        </script>
-        <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDpfS1oRGreGSBU5HHjMmQ3o5NLw7VdJ6I&callback=initMap"></script>
-
+<iframe src="https://yandex.ru/map-widget/v1/-/CCb~v44n" width="860" height="500" frameborder="1" allowfullscreen="true"></iframe>
       </div>
 
       <div class="row">
