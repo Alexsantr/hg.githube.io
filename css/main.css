@@ -4360,17 +4360,15 @@ h6 {
 }
 .Topzp{
 	
-    font-size: 100%; /* Размер текста */ 
+    font-size: 120%; /* Размер текста */ 
 	text-align:left;
-	word-spacing:normal;
-	text-indent: 10mm;
+	word-spacing:2px;
+	text-indent: 9mm;
+	text-decoration-color: black;
 	line-height: 26px;
+	text-transform:capitalize;
 	
-}
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+ 
+	
+	
 }
