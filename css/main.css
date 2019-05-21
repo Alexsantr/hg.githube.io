@@ -4361,16 +4361,28 @@ h6 {
 .Topzp{
 	
     font-size: 100%; /* Размер текста */ 
-	text-align:left;
+	text-align:center;
 	word-spacing:normal;
 	text-indent: 10mm;
 	line-height: 26px;
+	 padding: 10px;
 	
 }
-p {
-    display: block;
-    margin-block-start: 1em;
-    margin-block-end: 1em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
+.Topzp1{
+	 font-size: 100%; /* Размер текста */ 
+	text-align:center;
+	word-spacing:normal;
+	text-indent: 10mm;
+	line-height: 26px;
+	 padding: 10px;
+	
+}
+.Topzp2{
+	 font-size: 100%; /* Размер текста */ 
+	text-align:center;
+	word-spacing:normal;
+	text-indent: 10mm;
+	line-height: 26px;
+	 padding: 15px;
+	
 }
