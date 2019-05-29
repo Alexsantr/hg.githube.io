@@ -4363,9 +4363,10 @@ h6 {
     font-size: 100%; /* Размер текста */ 
 	text-align:center;
 	word-spacing:normal;
-	text-indent: 10mm;
-	line-height: 26px;
-	 padding: 10px;
+	text-indent: 15mm;
+	line-height: 30px;
+	 padding: 30px;
+	 font-family: arial ,serif;
 	
 }
 .Topzp1{
@@ -4373,8 +4374,9 @@ h6 {
 	text-align:center;
 	word-spacing:normal;
 	text-indent: 10mm;
-	line-height: 26px;
-	 padding: 10px;
+	line-height: 30px;
+	 padding: 30px;
+	 font-family: Arial, serif;
 	
 }
 .Topzp2{
@@ -4382,7 +4384,11 @@ h6 {
 	text-align:center;
 	word-spacing:normal;
 	text-indent: 10mm;
-	line-height: 26px;
-	 padding: 10px;
-	
+	line-height: 30px;
+	 padding: 30px;
+	 font-family: arial ,serif;
+}
+.Cloc{
+ padding: 30px;
+
 }
